@@ -4,7 +4,7 @@ from extractor import extractor
 # Initalize tkinter 
 root = tk.Tk() 
 root.geometry('600x400')
-root.title('Youtube extractor')
+root.title('Youtube MP3 Extractor')
 root.iconbitmap('imgs/icon.ico')
 root.resizable(False, False)
 root['bg'] = '#000000'
