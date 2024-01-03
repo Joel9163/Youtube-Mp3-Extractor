@@ -10,11 +10,11 @@ root.resizable(False, False)
 root['bg'] = '#000000'
 
 #Add text
-text = tk.Label(root, height=3, width=70, bg='#000000', fg='#FFFFFF', bd=0, text='Enter Youtube URL:', font=('Ariel',20))
+text = tk.Label(root, height=3, width=70, bg='#000000', fg='#FFFFFF', text='Enter Youtube URL:', font=('Ariel',20))
 text.pack(pady=20)
 
 #Get youtube link
-youtubelink = tk.Text(root, height=2, width=70)
+youtubelink = tk.Text(root, height=1.5, width=70)
 youtubelink.pack(pady=20)
 
 #make extractor object
