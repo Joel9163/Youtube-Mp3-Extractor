@@ -17,8 +17,10 @@ text.pack(pady=20)
 youtubelink = tk.Text(root, height=2, width=70)
 youtubelink.pack(pady=20)
 
+#make extractor object
 link = extractor(youtubelink)
 
+#make button to download
 download_img = tk.PhotoImage(file='imgs/download.png')
 download_button = tk.Button(root,image=download_img,command=link.download_file,border='2')
 download_button.pack(pady=30)

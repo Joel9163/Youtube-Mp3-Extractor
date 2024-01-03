@@ -13,7 +13,8 @@ class extractor:
     
     def get_url(self):
         self.url = self.urltext.get('1.0','end')
-
+        
+    #download and move file to correct location
     def download_file(self):
         self.get_url()
         yt = YouTube(self.url)
